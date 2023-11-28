@@ -1,3 +1,6 @@
+/*
+Configure Template X months as input
+*/
 
 (function () {
   // Add statements here
