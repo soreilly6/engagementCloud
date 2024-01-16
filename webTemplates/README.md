@@ -1,7 +1,7 @@
 
 
 
-Values exported in the API tab can be adding in a template
+Values exported in the API tab can be added in a template
 
 ```
 {  
