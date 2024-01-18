@@ -9,7 +9,7 @@
     for(var i=0;i<guest.dataExtensions.length;i++){
         var ext = guest.dataExtensions[i].values;
         
-        if(ext[extensionName])){
+        if(ext[extensionName]){
             return ext[extensionName];
         }
     }
