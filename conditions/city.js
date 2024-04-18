@@ -1,3 +1,8 @@
+/*
+Output Config: 
+Users city [[is]] [[city(s)]]
+*/
+
 (function () {
     var visited = "[[is | enum(is, is not) | is | { required: true, values: [is, is not], placeholder: is/is not }]]";
     var cityString = "[[city(s) | multienum(Aix en Provence, Amiens, Amsterdam, Antwerp, Athens, Bagneux, Barcelona, Belfast, Berlin, Bilbao, Birmingham, Blankenberge, Boblingen, Bochum, Bologna, Bonn, Bordeaux, Bournemouth, Braunschweig, Bremen, Brighton, Bruges, Brussels, Cambridge, Cardiff, Coimbra, Cologne, Copenhagen, Cork, Darmstadt, Dortmund, Douai, Dresden, Dublin, Edinburgh, Essen, Exeter, Florence, Frankfurt, Galway, Gdansk, Geneva, Glasgow, Granada, Graz, Grenoble, Groningen, Hamburg, Issy les Moulineaux, Kiel, Krakow, Krefeld, Lancaster, Leeds, Leicester, Leipzig, Leoben, Leuven, Leuwaarden, Lille, Lincoln, Lisbon, Liverpool, Lodz, London, Ludwigsburg, Lund, Luton, Lyngby, Madrid, Malaga, Malmo, Manchester, Mannheim, Marseille, Mechelen, Menen, Milan, Molndal, Montpellier, Muenster, Munich, Nantes, Newcastle, Nuremberg, Paris, Plymouth, Porto, Portsmouth, Potsdam, Prague, Preston, Rome, Rouen, Saint-Étienne, Salamanca, Seville, Sheffield, Siegen, Sollentuna, Southampton, Stockholm, Stuttgart, Swieqi, Taby, Toronto, Toulon, Toulouse, Turin, Valencia, Venice, Vienna, Warsaw, Wolfsburg, Zoersel, Zurich) |  | { required: true, searchable: true, placeholder: city(s) }]]";
