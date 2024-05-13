@@ -1,0 +1,28 @@
+
+(function () {
+  // Add statements here
+  
+  for(var i=0; i<guest.sessions.length; i++){
+      
+      if (guest.sessions[i].status === "OPEN"){
+      
+          for(var j=0; j<guest.sessions[i].events.length; j++){
+              
+              var currentEvent = guest.sessions[i].events[j];
+
+              
+              if(currentEvent.type === "VIEW"){
+                  
+                  return currentEvent.arbitraryData.utm_campaign;
+
+                  
+              }
+              
+          }
+      }
+  }
+  
+  return "";
+  
+  
+})();
