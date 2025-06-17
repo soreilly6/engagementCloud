@@ -31,3 +31,25 @@ Using values in the API tabs as Ifs to show or hide a HTML element
             </div>
           </div>
 ```
+
+Use Values in API tab in JavaScript Tab
+
+In Javascript
+```
+var gender = "{{gender}}";
+
+```
+In API Tab
+
+```
+{
+ "gender": 
+  <#list guest.dataExtensions as ext>
+      <#if (ext.values.genderTopAffinity)??>
+        "${ext.values.genderTopAffinity}"
+       </#if>
+  </#list>
+ 
+}
+
+```
